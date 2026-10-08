@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Logesh S | Data Analyst Portfolio</title>
+
     <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,23 +22,30 @@
             color: #fff;
             text-align: center;
             padding: 2rem 0;
-            position: relative; /* Add this */
+            position: relative;
         }
 
         .header-content h1 {
             font-size: 2.5rem;
         }
 
-        /* Add styles for the round profile picture */
-        .profile-picture {
-            width: 100px; /* Adjust the size as needed */
-            height: 100px;
-            border-radius: 75%; /* Create a circular shape */
-            object-fit: cover; /* To ensure the image fills the circular area */
-            position: absolute; /* Add this */
-            top: 75px; /* Adjust top position as needed */
-            left: 75px; /* Adjust left position as needed */
+        .header-content p {
+            font-size: 1.1rem;
         }
+
+        /* Profile Picture */
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 75%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+
+        /* Navigation */
 
         nav {
             background-color: #333;
@@ -42,6 +56,9 @@
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
 
         nav ul li {
@@ -54,6 +71,12 @@
             color: #fff;
         }
 
+        nav ul li a:hover {
+            color: #84a6e9;
+        }
+
+        /* Sections */
+
         .section-content {
             background-color: #fff;
             padding: 2rem;
@@ -62,6 +85,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: justify;
         }
+
+        .section-content h2 {
+            color: #941919;
+        }
+
+        /* Resume Button */
 
         .download-button {
             background-color: #333;
@@ -78,6 +107,8 @@
             background-color: #555;
         }
 
+        /* Footer */
+
         footer {
             text-align: center;
             padding: 1rem 0;
@@ -85,107 +116,363 @@
             color: #fff;
         }
 
+        /* Lists */
+
         ul {
             list-style-type: disc;
             padding-left: 20px;
         }
+
     </style>
+
 </head>
+
+
 <body>
+
+
+    <!-- ==============================
+         HEADER
+    =============================== -->
+
     <header>
+
         <div class="header-content">
-            <!-- Add your profile picture here -->
-            <img src="Passport photo.jpg" alt="Your Profile Picture" class="profile-picture">
+
+            <!-- Profile Picture -->
+
+            <img src="Passport photo.jpg"
+                 alt="Logesh S Profile Picture"
+                 class="profile-picture">
+
+
             <h1>Logesh S</h1>
-            <p>Am Computer Science student</p>
+
+            <p>
+                Data Analyst | Excel | SQL | Python | Power BI
+            </p>
+
         </div>
+
     </header>
 
+
+
+    <!-- ==============================
+         NAVIGATION
+    =============================== -->
+
     <nav>
+
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-           
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#resume">Resume</a>
+            </li>
+
         </ul>
+
     </nav>
 
+
+
+    <!-- ==============================
+         ABOUT SECTION
+    =============================== -->
+
     <section id="about">
+
         <div class="section-content">
+
             <h2>About Me</h2>
-            <p>I'm a <b>web development</b> expert who is passionate about creating dynamic and user-friendly websites. 
-                I'm driven by the desire to craft high-performance web applications that enhance user experience and provide
-                 seamless digital solutions.</p>
+
+            <p>
+                I'm <b>Logesh S</b>, a Computer Science student
+                interested in <b>Data Analytics</b> and
+                data-driven problem solving.
+            </p>
+
+            <p>
+                I enjoy working with data to identify
+                <b>trends, patterns and useful insights</b>
+                that can support better decision-making.
+            </p>
+
+            <p>
+                I have an interest in working with
+                <b>Microsoft Excel, SQL, Python and Power BI</b>
+                for data cleaning, analysis, visualization
+                and reporting.
+            </p>
 
         </div>
+
     </section>
+
+
+
+    <!-- ==============================
+         EDUCATION SECTION
+    =============================== -->
 
     <section id="education">
+
         <div class="section-content">
+
             <h2>Education</h2>
-            <p>Chikkana Govt Arts College-Bsc Computer Science</p>
-            
-            
+
+            <p>
+                <b>Chikkanna Government Arts College</b>
+                <br>
+                B.Sc Computer Science
+            </p>
+
+            <p>
+                Computer Science graduate with an interest in
+                Data Analytics, databases, programming and
+                business data analysis.
+            </p>
+
         </div>
+
     </section>
+
+
+
+    <!-- ==============================
+         SKILLS SECTION
+    =============================== -->
 
     <section id="skills">
+
         <div class="section-content">
+
             <h2>Skills</h2>
+
             <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>C</li>
-                <li>java</li>
-                <li>c++</li>
+
+                <li>
+                    <b>Microsoft Excel</b>
+                    – Data Cleaning, Formulas, Pivot Tables,
+                    Charts and Reporting
+                </li>
+
+                <li>
+                    <b>SQL</b>
+                    – SELECT, WHERE, GROUP BY, ORDER BY,
+                    JOIN and Aggregate Functions
+                </li>
+
+                <li>
+                    <b>Python</b>
+                    – Basic Python Programming and
+                    Data Processing
+                </li>
+
+                <li>
+                    <b>Power BI</b>
+                    – Data Visualization and
+                    Dashboard Development
+                </li>
+
+                <li>
+                    <b>Data Analytics</b>
+                    – Data Cleaning, Data Validation,
+                    Data Analysis and Reporting
+                </li>
+
+                <li>
+                    <b>MySQL</b>
+                    – Database Management and SQL Queries
+                </li>
+
+                <li>
+                    <b>Data Visualization</b>
+                    – Charts, Dashboards and
+                    Business Insights
+                </li>
+
             </ul>
+
         </div>
+
     </section>
+
+
+
+    <!-- ==============================
+         PROJECTS SECTION
+    =============================== -->
 
     <section id="projects">
+
         <div class="section-content">
+
             <h2>Projects</h2>
+
             <ul>
-                <li><a href="#">personal portfolio</a></li> 
-                <!-- Add more project links here -->
+
+
+                <!-- PROJECT 1 -->
+
+                <li>
+
+                    <b>Personal Portfolio</b>
+
+                    <p>
+                        Designed and developed a personal portfolio
+                        website to showcase technical skills,
+                        academic background, projects and
+                        professional interests.
+                    </p>
+
+                </li>
+
+
+
+                <!-- PROJECT 2 -->
+
+                <li>
+
+                    <b>Textile Management System</b>
+
+                    <p>
+                        Developed a management system concept
+                        for handling textile-related business
+                        information and records.
+                    </p>
+
+                    <p>
+                        Organized information related to products,
+                        inventory and business operations using
+                        structured data.
+                    </p>
+
+                    <p>
+                        Applied database and data management
+                        concepts for efficient record handling,
+                        searching and reporting.
+                    </p>
+
+                </li>
+
+
+
+                <!-- PROJECT 3 -->
+
+    
+
             </ul>
+
         </div>
+
     </section>
+
+
+
+    <!-- ==============================
+         RESUME SECTION
+    =============================== -->
 
     <section id="resume">
-    
+
         <div class="section-content">
+
             <center>
-            <h2>Resume</h2>
-            <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
-        </center>
+
+                <h2>Resume</h2>
+
+                <p>
+                    Download my resume to learn more about
+                    my education, technical skills and projects.
+                </p>
+
+                <a href="file.pdf"
+                   target="_blank"
+                   class="download-button">
+
+                    Download CV
+
+                </a>
+
+            </center>
+
         </div>
-        
+
     </section>
 
+
+
+    <!-- ==============================
+         FOOTER
+    =============================== -->
+
     <footer>
-        <p>&copy; 2025 Logesh S</p>
+
+        <p>
+            &copy; 2026 Logesh S | Data Analyst
+        </p>
+
     </footer>
 
+
+
+    <!-- ==============================
+         JAVASCRIPT
+    =============================== -->
+
     <script>
-        // Smooth scrolling to section when clicking on navigation links
+
+        // Smooth scrolling to section
+        // when clicking on navigation links
+
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
             anchor.addEventListener('click', function(e) {
+
                 e.preventDefault();
 
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
+                const targetId =
+                    this.getAttribute('href').substring(1);
+
+                const targetElement =
+                    document.getElementById(targetId);
 
                 if (targetElement) {
+
                     window.scrollTo({
+
                         top: targetElement.offsetTop,
+
                         behavior: 'smooth'
+
                     });
+
                 }
+
             });
+
         });
+
     </script>
+
+
 </body>
+
 </html>
